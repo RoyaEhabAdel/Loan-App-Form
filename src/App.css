@@ -1,0 +1,66 @@
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(15, 17, 96);
+  color: white;
+  width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+  position: fixed;
+  top: 12%;
+  left: 25%;
+}
+form input,
+select{
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 60%;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+hr{
+  width: 100%;
+}
+
+form button{
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(68, 17, 91);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  color: white;
+}
+form button:hover{
+  background-color: rgb(189, 190, 255);
+  color: rgb(15, 17, 96);
+}
+form span{
+  color:red;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.pop-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.pop-up .finish{
+  background-color: green;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
